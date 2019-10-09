@@ -1,0 +1,13 @@
+investimento.
+    * Categoria
+    * Tipo
+    * Aporte(valor inicial)R$
+    * Rentabilidade(%)
+    * Periodo Rentabilidade(dia, mes, ano)
+
+Carteira investimento.
+    * Investimento
+    * Quantidade
+    * Rentabilidade Mensal
+    * Rentabilidade Anual
+    

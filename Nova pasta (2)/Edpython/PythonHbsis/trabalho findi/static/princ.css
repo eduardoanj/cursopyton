@@ -1,0 +1,19 @@
+body{
+    border: 1px solid #000;
+}
+
+.cabecalho{
+    width: 100%;
+    background: #000;
+    height: 5.5em;
+}
+.logo{
+    top: 0%;
+    float: left;
+    max-width:80px;
+    max-height:30px;
+    width: auto;
+    height: auto;
+    padding: 5px;
+
+}    

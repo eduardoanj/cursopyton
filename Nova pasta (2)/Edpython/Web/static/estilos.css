@@ -1,0 +1,61 @@
+body{
+    background: #1C285C
+}
+.cabecalho, .novo{
+    width: 60%;
+    margin: auto;
+}
+.novo a{
+    text-transform: uppercase;
+    color:  #0f8399;
+    font-size: 0.875em;
+    background: #ffffff;
+    border: 1px solid #000000;   
+    padding: 0.275em 1em;
+    text-decoration: none;
+    /* text para  decoration servetirar o sublinhamento do botão novo aluno */
+}
+/*.novo a:hover serve para estilizar o botão novo aluno, ele brilha quando passa o mouse por cima*/
+/* o ponto inicial só usa caso crie uma classe */
+.novo a:hover{
+    background: #1C285C;
+    color: #ffffff;
+}
+table{
+    width: 60%;
+    margin: 1em auto;
+    border-collapse: collapse;
+    /*w3c rege as regras de css e html, então se houver alguma duvida é bom pesquisar lá ou no w3schools*/
+}   
+/*Lembre do ponto e virgula eduardo*/ 
+thead{
+    background: #000000;
+    color: #ffffff;
+}
+th{
+    height: 2em;
+    text-align: left;
+    padding: 0.5em 0 0 1em;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+td{
+    height: 1.5em;
+    padding: 0.5em 1em;
+    border: 1px solid #000000;
+    /* background: #ffffff; */
+}
+tbody tr{
+    background: #ffffff;
+}
+/* hover é sempre quando o mouse passar em cima, td=table data, a tabela onde estão os dados do td */
+tbody tr:hover{
+    background: #1C285C;
+    color: #ffffff;
+}
+body div h1{
+    color: #1C285C
+}
+body{
+    background-image: url(../static/000733463_prevstill.png)
+}

@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="../static/estilos_novo.css">
+    </head>
+    <body>
+        <header class= "menu_principal">
+            <div class="logo">
+                <img src="../static/Sem título.png">
+            </div>
+        </header>
+        <!-- o metodo post salva as informações -->
+        <form action="/aluno_salvar" method="POST"> 
+            <div class= "labels">
+                <label for="">Nome:</label>
+            </div>    
+            <input type="text" name= "nome" class="text-box"> </br>
+            <!-- o comando <br/> serve para quebrar a pagina, no caso os elementos estariam na mesma linha, e com o break ficariam em linhas diferentes -->
+            <div class="labels">
+                <label for="">Sobrenome :</label>
+            </div>
+            <!-- input adiciona uma caixa de texto no site e o label para indicar o conteúdo da caixa de texto -->
+            <input type="text" name= "sobrenome" class="text-box"> </br>
+            <div class="labels">
+            <label for="">Telefone :</label>
+            </div>
+            <input type="text" name= "telefone" class="text-box"> </br>
+            <hr/>
+            <!-- O input do tipo submit gera um botão, value = salvar é o que estará escrito no botão -->
+            <input type="submit" value = 'Salvar' class = 'salvar'/>
+        </form>
+    </body>
+</html>

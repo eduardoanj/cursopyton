@@ -1,0 +1,39 @@
+<html>
+    <!-- O arquivo index.html é colocado na pasta templates por padrão -->
+    <head>
+            <header class= "menu_principal">
+                <div class="logo">
+                    <img src="../static/Sem título.png">
+                </div>
+             </header>
+        <!-- no title roda o nome na pagina do navegador -->
+        <title>{{pagina_nome}}</title>
+        <link rel="stylesheet" href="../static/estilos.css">
+    </head>
+        <body>
+            <div class="cabecalho"> 
+                <h1>{{pagina_nome}}</h1>
+            </div>
+            <div class="novo">
+                <a href="/novo">Novo Aluno</a>
+            </div>
+            <!-- Neste caso o nome roda no topo da página -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for a in lista %}
+                        <tr>
+                            <!-- introdução do nome_completo visto em aula -->
+                            <td>{{ a.nome_completo() }}</td>
+                            <td>{{ a.Telefone }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+                </table>
+        </body>
+    </html>

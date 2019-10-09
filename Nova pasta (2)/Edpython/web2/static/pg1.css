@@ -1,0 +1,19 @@
+body{
+    margin: 0%;
+}
+.cabecalho{
+    width: 100%;
+    background: #cccccc;
+    height: 4em;
+}
+.redes{
+    top: 0;
+    float: right;
+}
+.logo{
+    margin: 10px 0 0 15px;
+    width: 6em;
+}
+.cabecalho 
+/* text decoration serve para tirar o sublinhado, cor entre outros 
+font size= muda a fonte, */
