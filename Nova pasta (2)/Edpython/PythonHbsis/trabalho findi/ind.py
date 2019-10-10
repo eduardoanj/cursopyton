@@ -13,17 +13,17 @@ def princ():
 
 @app.route('/investimentos')
 def cat():
-    return render_template('investimentos.html', titulo_pagina= 'investimentos.org', lista=lista_invest)
+    return render_template('investimentos.html', titulo_pagina= 'investimentos.org')
 
 @app.route('/salvar', methods=['POST'])
-def salvar():
+def Salvar():
     categoria = request.form['categoria']
     tipo = request.form['tipo']
     aporte = request.form['aporte']
     rentabilidade = request.form['rentabilidade']
     novo_investimento = Investimento(categoria, tipo, aporte, rentabilidade)
     lista_invest.append(novo_investimento)
-    return render_template('lista_inv.html')   
+    return redirect('salvar.html', lista=lista_invest)
 
 
 
