@@ -1,6 +1,6 @@
 from random import randint
 
-rand = randint(0, 20)
+rand = randint(0, 5)
 
 num = int(input('Digite um numero'))
 
