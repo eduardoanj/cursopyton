@@ -6,7 +6,6 @@ print(num1)
 num2 = 2
 print(num2)
 fibo = []
-reverse = []
 num0 = num1 + num2
 fibo.append(num0)
 print(num0)

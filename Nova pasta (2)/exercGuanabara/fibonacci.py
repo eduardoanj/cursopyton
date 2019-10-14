@@ -17,5 +17,5 @@ def cal_fibo():
     num3 = num1 + num2
     print(num3)
 
-for i in range(0, 10):
+for i in range(0, 400):
     cal_fibo()
