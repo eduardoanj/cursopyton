@@ -9,4 +9,6 @@ app = Flask(__name__)
 def layout():
     return render_template('layout.html', nome_de_la_page="Nome da pagina")
 
+@app.route('/')    
+
 app.run()    
