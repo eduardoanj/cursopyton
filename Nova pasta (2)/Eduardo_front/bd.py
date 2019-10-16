@@ -6,7 +6,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def layout():
-    return render_template('layout.html')
+    return render_template('index.html')
+
+@app.route('/juntese')
+def junte_se():
+    return render_template('junte-se_.html', nome_pagina=nome_pagina)    
 
 
 
